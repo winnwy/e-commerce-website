@@ -1,5 +1,5 @@
 import React from "react";
-import ModeToggle from "./ModeToggle";
+import ModeToggle from "./mode-toggle";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { EllipsisVertical, ShoppingCart, UserIcon } from "lucide-react";

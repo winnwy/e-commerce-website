@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { getProductBySlug } from "@/lib/actions/product.actions";
 import { notFound } from "next/navigation";
-import ProductPrice from "@/components/shared/product/ProductPrice";
-import ProductImages from "@/components/shared/product/ProductImages";
+import ProductPrice from "@/components/shared/product/product-price";
+import ProductImages from "@/components/shared/product/product-images";
 
 async function ProductDetailsPage(props: {
   params: Promise<{ slug: string }>;
